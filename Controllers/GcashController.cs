@@ -15,8 +15,8 @@ public class GCashController : Controller
 
     public IActionResult GCashMain()
     {
-
-
+        var paymentInfo = HttpContext.Session.GetString("PaymentData") ?? "{}";
+        ViewBag.PaymentData = paymentInfo;
         return View();
     }
 }

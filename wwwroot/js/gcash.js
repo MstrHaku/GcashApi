@@ -1,6 +1,13 @@
 // DEBUGGER
 console.log("This is gcash.js");
 
+
+// GET PAYMENT DATA FROM CLIENT
+const paymentData = document.getElementById("paymentData");
+const paymentJson = JSON.parse(paymentData.dataset.json);
+console.log(paymentJson);
+
+
 const phoneNumber = document.getElementById("phoneNumber");
 
 // DISABLE INPUT NUMBER "e, +, and -"
