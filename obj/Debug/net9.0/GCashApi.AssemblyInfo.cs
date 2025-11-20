@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GCashApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188e7202fe0fb49d2d261a84fa57b68641ba2235")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e81361c593277bac664a3e126ab08af833a5b227")]
 [assembly: System.Reflection.AssemblyProductAttribute("GCashApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GCashApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

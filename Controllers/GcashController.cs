@@ -15,7 +15,8 @@ public class GCashController : Controller
 
     public IActionResult GCashMain()
     {
+
+
         return View();
     }
-
 }
