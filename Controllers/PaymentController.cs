@@ -8,6 +8,10 @@ public class PaymentController : ControllerBase
     public IActionResult ProcessPayment([FromBody] PaymentRequest req)
     {   
         Console.WriteLine($"Message from client: {req.Message}");
-        return Ok(new { status = "Success"});
+
+        // DIRECT
+        string url = "https://prettied-punchily-angeles.ngrok-free.dev/";
+
+        return Ok(new { status = "Success", redirect = url});
     }
 }
